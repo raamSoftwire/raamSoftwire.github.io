@@ -23,11 +23,11 @@ description: A virtual proof that name is awesome!
 
 # List of links in the navigation bar
 navbar-links:
-  
   Projects:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+    - Dynamite: "http://deanattali.com/beautiful-jekyll/"
+    - Vivacity: "http://www.markdowntutorial.com/"
+    - BEIS 1: "https://pages.github.com/"
+    - BEIS 2: "https://pages.github.com/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
