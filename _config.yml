@@ -46,7 +46,7 @@ navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
-hover-col: "#009933"
+hover-col: "#0e9e9e"
 footer-col: "#F5F5F5"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
@@ -70,7 +70,7 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+  rss: false
   email: "raam.chauhan@softwire.com"
   # facebook: daattali
   github: raamSoftwire
@@ -106,7 +106,7 @@ share-links-active:
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-126985882-1"
 
 # Google Tag Manager ID
 #gtm: ""
