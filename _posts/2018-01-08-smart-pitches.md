@@ -15,7 +15,7 @@ This was my first commercial project, and I was working in a small team with ano
 
 This project was a collaboration with an image recognition and machine-learning company. We used their technology to track football players on the pitch to build up detailed heatmaps and pitch usage data as a function of time. 
 
-![Pitch usage data](/img/smartPitches/usageGraph2.png)
+![Pitch usage data](/img/smartPitches/usageGraph.png)
 
 They were collecting live data from a large number of pitches from around the country. Our role was to build a web app to display the large amount of data in real time, in a way that was easy to understand at a glance.
 
