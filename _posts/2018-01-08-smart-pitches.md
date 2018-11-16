@@ -21,9 +21,9 @@ They were collecting live data from a large number of pitches from around the co
 
 ![Logos for Google Firebase, React, Github and Travis CI](/img/smartPitches/logos.png)
 
-The first challenge in this project was to manage the huge amount of data being produced and to store it in a way that would allow us to extract the necessary information. We used Cloud Functions for Firebase with cronjobs to run our backend code every five minutes to ingest the data from the client API and to pipe it into our NoSQL database provided by Google's Firestore.
+The first challenge in this project was to manage the huge amount of data being produced and to store it in a way that would allow us to extract the necessary information. We used [Cloud Functions for Firebase](https://firebase.google.com/docs/functions/) with [cronjobs](https://cron-job.org/en/) to run our backend code every five minutes to ingest the data from the client API and to pipe it into our NoSQL database provided by [Google's Firestore](https://firebase.google.com/docs/firestore/).
 
-The second challenge was to process the data and to display meaningful metrics in a user-friendly dashboard. For the front-end we started with a [Create React App](https://github.com/facebook/create-react-app) with Typescript, which provided a lot of the initial infrastructure, including build tools and a testing framework. 
+The second challenge was to process the data and to display meaningful metrics in a user-friendly dashboard. For the front-end we started with a [Create React App with Typescript](https://github.com/wmonk/create-react-app-typescript), which provided a lot of the initial infrastructure, including build tools and a testing framework. 
 
 We also used Google's Firebase to host our site and the code was kept in a GitHub repository. As well as source control we also used GitHub for our code reviews, which meant that I was able to see an alternative to Crucible. I came to prefer Github as it integrated seamlessly with pushing new branches and making pull requests when merging feature branches to master.
 
@@ -81,7 +81,7 @@ This also came with handy keyboard shortcuts for auto-correcting linting errors,
 
 ### Agile
 
-This project was managed using an Agile approach, which meant that we had short iteration cycles and regularly shared our progress with the client in order to continually reassess and refine what we were building. We worked in week-long _sprints_, and before the start of each sprint we would have a sprint planning meeting. In these meetings we would split up the work into small tasks and estimate points for how difficult we thought each one would be. We would then keep track of how many points we would collect by the end of the sprint. This gave us a metric for team velocity as we went through the project and helped us to determine how much we could reasonably acheive in future sprints.
+This project was managed using an [Agile](http://agilemanifesto.org/) approach, which meant that we had short iteration cycles and regularly shared our progress with the client in order to continually reassess and refine what we were building. We worked in week-long _sprints_, and before the start of each sprint we would have a sprint planning meeting. In these meetings we would split up the work into small tasks and estimate points for how difficult we thought each one would be. We would then keep track of how many points we would collect by the end of the sprint. This gave us a metric for team velocity as we went through the project and helped us to determine how much we could reasonably acheive in future sprints.
 
 We also had weekly retrospective meetings as a team to assess what went well in the last sprint, what didn't work so well and what needed to be changed. Personally, I feel like these were the meetings that helped us work most cohesively as a team as they were a place to share small team victories but also to voice concerns openly and to have them addressed.
 
