@@ -7,8 +7,6 @@ subtitle: Dashboard Web App
 
 ![Pitch heatmap](/img/smartPitches/heatmap.png)
 
-Work in progress.
-
 ## Introduction
 
 This was my first commercial project, and I was working in a small team with another new developer, a tech lead and a project manager. All of us were new to our roles but we were very successful and were billed as the _happiest team in Softwire_.
@@ -85,7 +83,7 @@ This also came with handy keyboard shortcuts for auto-correcting linting errors,
 
 This project was managed using an Agile approach, which meant that we had short iteration cycles and regularly shared our progress with the client in order to continually reassess and refine what we were building. We worked in week-long _sprints_, and before the start of each sprint we would have a sprint planning meeting. In these meetings we would split up the work into small tasks and estimate points for how difficult we thought each one would be. We would then keep track of how many points we would collect by the end of the sprint. This gave us a metric for team velocity as we went through the project and helped us to determine how much we could reasonably acheive in future sprints.
 
-We would also have weekly retrospective meetings as a team to assess what went well in the last sprint, what didn't work so well and what needed to be changed. Personally, I feel like these were the meetings that helped us work most cohesively as a team as they were a place to share small team victories but also to voice concerns openly and to have them addressed.
+We also had weekly retrospective meetings as a team to assess what went well in the last sprint, what didn't work so well and what needed to be changed. Personally, I feel like these were the meetings that helped us work most cohesively as a team as they were a place to share small team victories but also to voice concerns openly and to have them addressed.
 
 ### UX focus
 
@@ -97,7 +95,7 @@ We had been given designs by the client, showing us how they wanted the finished
 
 ![The original designs](/img/smartPitches/compEnvision.png)
 
-And this is how the page looked on the final site. As we worked through the project we worked with the client to tweak the initial designs and to make the site more user-friendly. One example shown here is the use of large green buttons for toggling between different pitches rather than using light grey arrows.
+And shown below is how the page looked on the final site. As we worked through the project we worked with the client to tweak the initial designs and to make the site more user-friendly. One example shown here is the use of large green buttons for toggling between different pitches rather than using light grey arrows, which were difficult to find for new users.
 
 ![The finished product](/img/smartPitches/compReal.png)
 
