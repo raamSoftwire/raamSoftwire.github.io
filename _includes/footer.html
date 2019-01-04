@@ -7,13 +7,11 @@
             {%- assign curkey = link[0] -%}
             {%- assign element = site.data.SocialNetworks[curkey] -%}
             <li>
-            {%- if curkey == 'rss' -%}
-              <a href="{{ '/feed.xml' | prepend: site.baseurl }}" title="{{ element.name }}">
-            {%- elsif curkey == 'yelp' -%}
+            <!-- {%- if curkey == 'yelp' -%}
               <a href="https://{{ site.social-network-links[curkey] }}.yelp.com" title="{{ element.name }}">
             {%- else -%}
               <a href="{{element.baseURL}}{{ site.social-network-links[curkey] }}" title="{{ element.name }}">
-            {%- endif -%}
+            {%- endif -%} -->
                 <span class="fa-stack fa-lg" aria-hidden="true">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa {{ element.icon }} fa-stack-1x fa-inverse"></i>
@@ -42,7 +40,7 @@
       </p>
           <!-- Please don't remove this, keep my open source work credited :) -->
     <p class="theme-by text-muted">
-      Theme by
+      Proudly built using open source code by
       <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
     </p>
       </div>
